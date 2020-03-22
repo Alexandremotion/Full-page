@@ -1,0 +1,47 @@
+// Coloque todos os arquivos do fullpage, dentro do seu projeto, fullpage.min.css é o fullpage.min.js
+
+
+<script src="./fullpage.min.js"></script>
+<script src="./app.js"></script>
+
+
+
+<link rel="stylesheet" href="fullpage.min.css">
+
+
+
+// Coloque esse comando no app.js
+
+new fullpage('#fullpage', {
+    autoScrolling: true,	// Vai adcionar o scroo smoth
+    navigation: true,  		// Vai adcionar botões para dá scroll
+})
+
+
+
+
+
+
+
+background: linear-gradient(to left, #87c7df, #648896);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+// Para colocar uma textura no texto.
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+// Animation
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk=" crossorigin="anonymous"></script>
